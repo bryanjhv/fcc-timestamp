@@ -12,9 +12,17 @@
   "homepage": "https://github.com/bryanjhv/fcc-timestamp",
   "license": "MIT",
   "author": "Bryan Horna <bryanjhv@gmail.com> (https://bryanjhv.github.io)",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/bryanjhv/fcc-timestamp.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "moment": "^2.15.2"
   },
   "engines": {
     "node": "6.9.0",
