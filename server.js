@@ -16,7 +16,7 @@ function listener(req, res) {
       date = moment(timestamp, format, "en", true);
     } else {
       // UNIX timestamp
-      date = moment.unix(timestamp * 1000);
+      date = moment.unix(timestamp);
     }
 
     if (date.isValid()) {
