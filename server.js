@@ -1,7 +1,7 @@
 var app = require("express")();
 var moment = require("moment");
 
-var format = "MMMM DD, YYYY";
+var format = "MMMM D, YYYY";
 
 
 function listener(req, res) {
