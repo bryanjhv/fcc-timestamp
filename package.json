@@ -1,0 +1,24 @@
+{
+  "name": "fcc-timestamp",
+  "version": "0.0.1",
+  "description": "Solution to FCC's Timestamp Microservice API Project",
+  "keywords": [
+    "freecodecamp",
+    "express",
+    "api",
+    "microservice",
+    "timestamp"
+  ],
+  "homepage": "https://github.com/bryanjhv/fcc-timestamp",
+  "license": "MIT",
+  "author": "Bryan Horna <bryanjhv@gmail.com> (https://bryanjhv.github.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bryanjhv/fcc-timestamp.git"
+  },
+  "engines": {
+    "node": "6.9.0",
+    "npm": "3.10.8"
+  },
+  "private": true
+}
